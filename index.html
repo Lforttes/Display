@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo Sobre Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> CSS Display</h1>
+    </header>
+    <nav>
+        <a href="#">Inline</a>
+        <a href="#">Block</a>
+        <a href="#">Inline-Block</a>
+        <a href="#">Flex</a>
+        <a href="#">Inline-Flex</a>
+        <a href="#">Grid</a>
+        <a href="#">Inline-Grid</a>
+        <a href="#">None</a>
+    </nav>
+    <main>
+        <section>
+            <h2 id="Dentro-fora-caixa">Fora e dentro da caixa</h2>
+                <ul>
+                    <li><strong>Inline e Block</strong></li>
+                        <p>Serão realizadas modificações <strong>FORA</strong> da caixa</p>
+                    <li><strong>Flex e Grid</strong></li>
+                        <p>Serão realizas modificações no <strong>DENTRO</strong> da caixa</p>
+                </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>INLINE</h2>
+            <p>Segue algumas configurações do Display, ao ser classificado como Inline:</p>
+            <ul>
+                <li>Margin top e bottom NÃO são permitidos</li>
+                <li>Width e height NÃO são permitidos</li>
+                <li>NÃO gera quebra de linha</li>
+                <li>Inline seguido de Inline ficam ao lado</li>
+                <li><strong>Algumas tags Inline:</strong> a, span, i, img, strong, em, b... </li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>BLOCK</h2>
+            <P>Segue algumas configurações do Display, ao ser classificado como Block:</P>
+            <ul>
+                <li>Width 100%</li>
+                <li>Margin top e Bottom são permitidos</li>
+                <li>Width e height são permitidos</li>
+                <li>Quebra de linha antes e depois.</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>INLINE-BLOCK</h2>
+            <p>Segue algumas configurações do Display, ao ser classificado como Display Inline-block</p>
+            <p>O elemento passa a ter comportamentos Block, mas herda as prorpiedades Inline.</p>
+            <ul>
+                <li>Whidth e Heigth SÃO permitidos</li>
+                <li>Margin é permitido.</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>FLEX</h2>
+            <p>Segue algumas configurações do Display, ao ser classificado como Display Flex:</p>
+            <ul>
+                <li>Desbloqueia propriedades para trabalhar com os elementos internos</li>
+                <li>O elemento principal fica Block.</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>INLINE-FLEX</h2>
+            <p>Segue algumas configurações do Display, ao ser classificado com Display Inline - Flex:</p>
+            <ul>
+                <li>O elemento pai é Inline</li>
+                <li>Recebe propriedade Block</li>
+                <li>Os filhos Flex.</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>GRID</h2>
+            <p>Segue algumas configurações do Display, ao ser classificado com Display Grid:</p>
+            <ul>
+                <li>Desbloqueia propriedades Grid para trabalhar com elementos internos</li>
+                <li>O elemento principal fica block.</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>INLINE-GRID</h2>
+            <p>Segue algumas configurações do Display, ao ser classificado com Display Inline-Grid:</p>
+            <ul>
+                <li>O elemento pai é INLINE</li>
+                <li>Recebe propriedade BLOCK</li>
+                <li>O conteúdo se comporta com GRID.</li>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h2>NONE</h2>
+            <p>Segue algumas configurações do Display, ao Ser classificado com Display NONE:</p>
+            <ul>
+                <li>Ruim para acessibilidade</li>
+                <li>Remove o elemento da tela</li>
+                <ul>
+                    <li>Opção?</li>
+                    <p>Procurar na Web como esconder elementos.</p>
+                </ul>
+            </ul>
+        </section>
+        <hr>
+    </main>
+
+    <footer>
+        Produzido por Lucas Fortes
+    </footer>
+
+
+</body>
+</html>
