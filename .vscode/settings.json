@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "chat.editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on"
+}

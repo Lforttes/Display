@@ -1,0 +1,16 @@
+#section02 a{                 ->Aplicando Display Block no elemento FILHO(a);
+    display: block;           -> Display Block;
+    border: 1px solid black;  -> Inserindo Borda para melhor visualização das modificações.  
+}
+#link_margin{                 -> Estilizando primeiro link(Aplicando Margin); 
+    text-decoration: none;    -> Removendo sublinhado abaixo da link; 
+    margin: 10px 15px;        -> Aplicando 10px margin(cima e baixo) 15px(esquerda e direita).
+}
+#link_width{
+    text-decoration: none;    -> Removendo sublinhado abaixo da link;
+    width: 130px;             -> Definindo tamanho do espaçamento horizontal;
+}
+#link_height{
+    text-decoration: none;    -> Removendo sublinhado abaixo da link;
+    height: 40px;             -> Definindo tamanho do espaçamento vertical;
+}

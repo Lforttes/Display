@@ -1,0 +1,7 @@
+<section id="section01"> -> DISPLAY BLOCK
+            <a href="#">link01</a> ->DISPLAY INLINE
+            <a href="#">link02</a> ->DISPLAY INLINE
+            <a href="#">link03</a> ->DISPLAY INLINE
+            <a href="#">link04</a> ->DISPLAY INLINE
+            <a href="#">link05</a> ->DISPLAY INLINE
+        </section>

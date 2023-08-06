@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:skyblue;
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 0px;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+header{
+    display: block;
+    border-radius: 10px 0px;
+    border: 1px solid black;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+#section01{
+    border: 1px solid black;
+}
+main p{
+    text-indent: 12px;
+}
+#section02{
+    border: 1px solid black;
+}
+#section02 a{
+    display: block;
+    border: 1px solid black;
+}
+#link_margin{
+    text-decoration: none;
+    margin: 10px 15px;
+}
+#link_width{
+    text-decoration: none;
+    width: 130px;
+}
+#link_height{
+    text-decoration: none;
+    height: 40px;
+}
